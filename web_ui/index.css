@@ -1,0 +1,181 @@
+body {
+	font-family: "Century Gothic", Verdana, sans-serif;
+	background: url(images/bodybg2.png) no-repeat;
+	background-size: auto auto;
+}
+
+#all {
+	margin: 50px auto;
+	width:85%;
+	border: 2px solid #40e0d0;
+	border-radius: 35px;
+	overflow: hidden;
+	box-shadow: 0px 0px 15px black;
+}
+
+#main {
+	float:right;
+	margin:60px 0px;
+	max-width:70%;
+	min-width:70%;
+	text-align:left;
+	border-left: 2px solid #40e0d0;
+	color: #191970;
+}
+
+#sidebar {
+	text-align: left;
+	margin:60px 0px;
+	float: left;
+	max-width:30%;
+	min-width:29%;
+	position:relative;
+}
+
+#floatline {
+	width:2px;
+	size: 100px;
+	margin-left: 20px;
+	position:absolute;
+	transition: top 0.3s;
+}
+
+p.pagetitle {
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#showresultbutton {
+	text-align: center
+}
+
+.currentmenu {
+	font-size:120%;
+	font-weight:bold;
+	color: #191970;
+	padding-left:14px;
+	margin-left:20px;
+	padding-bottom:5px;
+	margin-bottom:25px;
+	transition: opacity 0.2s, font-size 0.2s;
+}
+
+.menu {
+	padding-left: 14px;
+	margin-left:20px;
+	padding-bottom:5px;
+	margin-bottom:25px;
+	transition: opacity 0.2s, color 0.2s, font-size 0.2s;
+}
+
+.menuline {
+	width: 100%;
+	opacity: 0.1;
+}
+
+.currentmenu:hover {
+	opacity: 0.55;
+	font-size: 130%;
+}
+
+.menu:hover {
+	opacity: 0.75;
+	color: #40e0d0;
+	font-size: 110%;
+}
+
+#login, #form {
+	width:70%;
+	margin-top:30px;
+	font-size: 110%;
+	color: #191970;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#counttable {
+	margin: 30px 30px;
+}
+
+table {
+	border-spacing: 30px;
+	font-family:"Trajan Pro", "Century Gothic";
+	max-width: 100%;
+	width:100%;
+	border-collapse:collapse;
+	cursor: default;
+}
+
+tr#resultrow{
+	transition: font-size 0.3s;
+}
+
+tr.odd:hover, tr.even:hover {
+	font-size: 120%;
+}
+
+
+td, th {
+	padding: 20px;
+}
+
+th {
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+	border-top: 2px solid rgba(0,0,0,0.4);
+	border-left: 1px solid rgba(0,0,0,0.1);
+	font-weight: bolder;
+	font-size: 80%
+}
+
+tr.even {
+	background-color: #e0ffff;
+}
+
+
+input[type="text"]:hover, input[type="checkbox"]:hover ,input[type="submit"]:hover, input[type="date"]:hover, button:hover {
+		box-shadow:inset 1px 1px 1px black	;
+		filter: alpha(opacity=45);
+		opacity: 0.45;
+		color:#191970;
+}
+
+input[type="text"], input[type="checkbox"], input[type="submit"], input[type="date"], button {
+	transition: box-shadow 0.2s, opacity 0.2s, color 0.2s;
+}
+
+
+input[type="checkbox"] {
+	color: #191970;
+}
+
+
+input[type="submit"], button {
+	margin-left:auto;
+	margin-right:auto;
+	font-size:110%;
+	color:#1e90ff;
+	background-color: #e0ffff;
+	border: 2px solid gray;
+	border-radius:5px;
+	cursor: pointer;
+}
+
+#city {
+	padding-right:5px;
+}
+
+#state {
+	padding-left:50px;
+	padding-right:5px;
+}
+
+.formtitle {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.formboxes {
+	width:100%;
+}

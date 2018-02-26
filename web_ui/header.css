@@ -1,0 +1,28 @@
+header.header {
+	height:	100px;
+	margin:		5px 10px 5px 10px;
+	background-color: #1e90ff;
+	border-radius: 5px;
+	color:	white;
+}
+
+#left_text {
+	font-size: 150%;
+	font-family:	Courier,serif;
+	font-weight:	bolder;
+	float: left;
+	padding-left: 10px;
+	position: absolute;
+	top: 50px;
+}
+
+#right_text {
+	font-size: 105%;
+	font-family:	Courier,serif;
+	font-style: italic;
+	font-weight: bold;
+	float: right;
+	text-align:right;
+	padding-right: 10px;
+	padding-top:20px;
+}

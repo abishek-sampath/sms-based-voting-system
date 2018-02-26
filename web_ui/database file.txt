@@ -1,0 +1,36 @@
+create table users(sl int AUTO_INCREMENT,num varchar(30),name varchar(100),age varchar(10), sex varchar(10),district varchar(100),region varchar(100),address varchar(100),vid varchar(30),uid varchar(30),flag varchar(10),sentcid varchar(10),sentformat varchar(10),PRIMARY KEY(sl));
+
+create table candidate(csl int AUTO_INCREMENT,cname varchar(100),cage varchar(10), csex varchar(10),cparty varchar(100),cdistrict varchar(100),cregion varchar(100),ccode varchar(30), cid varchar(30),ctotal int(100),PRIMARY KEY(csl));
+
+
+create table msgs(num varchar(30), text varchar(300));
+
+create table smssendflag(regioncidflag varchar(10), formatflag varchar(300));
+
+INSERT INTO smssendflag VALUES (0,0);
+
+
+create table party(pname varchar(100),pcode varchar(30));
+
+INSERT INTO party VALUES ('All India Anna Dravida Munnetra Kazhagam','AIADMK');
+INSERT INTO party VALUES ('Bahujan Samaj Party','BSP');
+INSERT INTO party VALUES ('Bharatiya Janata Party','BJP');
+INSERT INTO party VALUES ('Communist Party of India','CPI');
+INSERT INTO party VALUES ('Communist Party of India (Marxist)','CMP');
+INSERT INTO party VALUES ('Dravida Munnetra Kazhagam','DMK');
+INSERT INTO party VALUES ('Desia Murpooku Dravida Kazhagam','DMDK');
+INSERT INTO party VALUES ('Indian National Congress','INC');
+INSERT INTO party VALUES ('Marumalarchi Dravida Munnetra Kazhagam','MDMK');
+INSERT INTO party VALUES ('Pattali Makkal Katchi','PMK');
+
+
+create table region(sl varchar(100),rname varchar(100),rcode varchar(30),city varchar(100));
+
+INSERT INTO region VALUES (1,'Mylapore','MYL','Chennai');
+INSERT INTO region VALUES (2,'Kolathur','KOLA','Chennai');
+INSERT INTO region VALUES (3,'Villivakkam','VILL','Chennai');
+INSERT INTO region VALUES (4,'Royapuram','ROYA','Chennai');
+INSERT INTO region VALUES (5,'Egmore (SC)','EGMR','Chennai');
+INSERT INTO region VALUES (6,'Ponneri (SC)','PONN','Tiruvallur');
+INSERT INTO region VALUES (7,'Tiruttani	TIRT','Tiruvallur');
+INSERT INTO region VALUES (8,'Thiruvallur','THIV','Tiruvallur');

@@ -1,0 +1,22 @@
+.processresults {
+	text-align:center;
+	font-size: 200%;
+	font-family: "Century Gothic", Verdana, sans-serif;
+}
+
+.processresults span {
+	font-size: 220%;
+	font-weight: bold;
+	color: #191970;
+}
+
+.backlink {
+	cursor:pointer;
+	color:red;
+	margin-bottom: 150px;
+	transition:all 0.3s;
+}
+
+.backlink:hover {
+	color:purple;
+}
